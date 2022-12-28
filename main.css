@@ -1,10 +1,17 @@
+@font-face{
+    font-family: 'Arcade';
+    src: url(web/ARCADECLASSIC.TTF) format('truetype');
+}
+
 .bg {
     position: fixed; 
     left: -50%; 
     width: 50%; 
     height: 50%;
+    z-index: -1;
   }
-  .bg img {
+
+.bg img {
     position: absolute; 
     top: 0; 
     left: 0; 
@@ -14,3 +21,37 @@
     min-width: 50%;
     min-height: 50%;
   }
+
+.logo img{
+    width:150px;
+    height:auto;
+    padding-top: 15px;
+}
+
+.topnav{
+    padding-top: 15px;
+    width: 70%;
+    overflow: auto;
+    float: right;
+    font-family: Arcade;
+    
+}
+
+.topnav a{
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 35px;
+    width: 17.5%;
+    text-align: center;
+    color: gray;
+}
+
+.maintitle{
+    position: fixed;
+    font-family: Arcade;
+    color: gray;
+    font-size: 30px;
+    left: 225px;
+    bottom: 500px;
+}
