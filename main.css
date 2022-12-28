@@ -3,6 +3,11 @@
     src: url(web/ARCADECLASSIC.TTF) format('truetype');
 }
 
+@font-face{
+    font-family: 'Pixel';
+    src: url(web/advanced_pixel-7.ttf) format('truetype');
+}
+
 .bg {
     position: fixed; 
     left: -50%; 
@@ -44,14 +49,25 @@
     font-size: 35px;
     width: 17.5%;
     text-align: center;
-    color: gray;
+    color: #666666;
 }
 
 .maintitle{
     position: fixed;
     font-family: Arcade;
-    color: gray;
-    font-size: 30px;
+    color: #666666;
+    font-size: 60px;
     left: 225px;
-    bottom: 500px;
+    top: 250px;
+}
+
+.maintext{
+    position: fixed;
+    font-family: Pixel;
+    color: #666666;
+    font-size: 45px;
+    left: 225px;
+    bottom: 375px;
+    font-weight: 100;
+    letter-spacing: 20px;
 }
