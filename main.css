@@ -14,7 +14,7 @@
     width: 50%; 
     height: 50%;
     z-index: -1;
-  }
+}
 
 .bg img {
     position: absolute; 
@@ -25,7 +25,7 @@
     margin: auto; 
     min-width: 50%;
     min-height: 50%;
-  }
+}
 
 .logo img{
     width:150px;
@@ -52,6 +52,10 @@
     color: #666666;
 }
 
+.topnav a:hover{
+    color: #993500;
+}
+
 .maintitle{
     position: fixed;
     font-family: Arcade;
@@ -59,6 +63,7 @@
     font-size: 60px;
     left: 225px;
     top: 250px;
+    line-height: 1.2;
 }
 
 .maintext{
@@ -67,7 +72,54 @@
     color: #666666;
     font-size: 45px;
     left: 225px;
-    bottom: 375px;
+    bottom: 350px;
     font-weight: 100;
     letter-spacing: 20px;
+    line-height: 1.2;
+}
+
+.description{
+    position:fixed;
+    font-family: Pixel;
+    color: #666666;
+    font-size: 41px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    right: 250px;
+    top: 275px;
+    line-height: 1.5;
+}
+
+.bottomtext{
+    position:fixed;
+    font-family: Pixel;
+    color: #666666;
+    left: 50px;
+    bottom: 5px;
+    font-size: 20px;
+}
+
+.firstbutton img{
+    position: fixed;
+    width: 300px;
+    height: auto;
+    top: 600px;
+    left: 200px;
+
+}
+
+.secondbutton img{
+    position:fixed;
+    left: 600px;
+    top: 600px;
+    width: 300px;
+    height:auto;
+}
+
+.thirdbutton img{
+    position:fixed;
+    width: 300px;
+    height: auto;
+    top: 600px;
+    right: 400px;
 }
