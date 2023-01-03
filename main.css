@@ -101,7 +101,7 @@
 
 .firstbutton img{
     position: fixed;
-    width: 300px;
+    width: 200px;
     height: auto;
     top: 600px;
     left: 200px;
@@ -112,14 +112,22 @@
     position:fixed;
     left: 600px;
     top: 600px;
-    width: 300px;
+    width: 200px;
     height:auto;
 }
 
 .thirdbutton img{
     position:fixed;
-    width: 300px;
+    width: 200px;
     height: auto;
     top: 600px;
-    right: 400px;
+    right: 700px;
+}
+
+.fourthbutton img{
+    position:fixed;
+    width: 200px;
+    height: auto;
+    top: 600px;
+    right: 300px;
 }
