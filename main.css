@@ -46,8 +46,8 @@
     float: left;
     padding: 12px;
     text-decoration: none;
-    font-size: 35px;
-    width: 17.5%;
+    font-size: 30px;
+    width: 14%;
     text-align: center;
     color: #666666;
 }
@@ -103,7 +103,7 @@
     position: fixed;
     width: 200px;
     height: auto;
-    top: 600px;
+    top: 625px;
     left: 200px;
 
 }
@@ -111,7 +111,7 @@
 .secondbutton img{
     position:fixed;
     left: 600px;
-    top: 600px;
+    top: 625px;
     width: 200px;
     height:auto;
 }
@@ -120,7 +120,7 @@
     position:fixed;
     width: 200px;
     height: auto;
-    top: 600px;
+    top: 625px;
     right: 700px;
 }
 
@@ -128,6 +128,6 @@
     position:fixed;
     width: 200px;
     height: auto;
-    top: 600px;
+    top: 625px;
     right: 300px;
 }

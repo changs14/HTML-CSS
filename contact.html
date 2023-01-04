@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel = "stylesheet" href = "code.css">
-    <title>Code | Stephaney Chang</title>
+    <link rel = "stylesheet" href = "contact.css">
+    <title>Contact | Stephaney Chang</title>
     <link rel="icon" type="image/x-icon" href="web/icon.ico">
 </head>
 
@@ -14,18 +14,50 @@
 
     <!-- Set main logo to left side of page -->
     <div class="logo">
-        <img src="web/logo.png" alt="">
+        <a  href="main.html">
+            <img src="web/logo.png" alt="">
+        </a>
 
         <!--Top navigation bar-->
         <div class="topnav">
             <a class="home" href="main.html">Home</a>
             <a href="code.html">Code</a>
+            <a href="design.html">Design</a>
             <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
             <a href="https://github.com/changs14">GitHub</a>
         </div>
 
     </div>
+
+    <!--Description of the page-->
+    <h1 class="contact">Contact Me</h1>
+
+    <p1 class="description">I am always looking for new opportunities.<br>
+                            My inbox is always open for questions or if <br>
+                            you just want to say hi. You may email me <br>
+                            or use the form provided and I will try to <br>
+                            get back to you as soon as I can!<br><br>
+                            Email: stephaney.c@outlook.com</p1>
+
+    <!--Contact Form-->
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="message">Leave a message...</label><br>
+        <input type="text" id="message" name="messsage"><br><br>
+        
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <!--Copyright stuff or something-->
+    <p class="bottomtext">© 2022 by Stephaney Chang.</p>
+
 </body>
 
 </html>

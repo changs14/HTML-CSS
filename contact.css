@@ -46,12 +46,45 @@
     float: left;
     padding: 12px;
     text-decoration: none;
-    font-size: 35px;
-    width: 17.5%;
+    font-size: 30px;
+    width: 14%;
     text-align: center;
     color: #666666;
 }
 
 .topnav a:hover{
     color: #993500;
+}
+
+.bottomtext{
+    position:fixed;
+    font-family: Pixel;
+    color: #666666;
+    left: 50px;
+    bottom: 5px;
+    font-size: 20px;
+}
+
+.contact{
+    position: fixed;
+    font-family: Arcade;
+    color: #666666;
+    font-weight: 100;
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    right: 600px;
+    top: 250px;
+}
+
+.description{
+    position: fixed;
+    font-family: Pixel;
+    color: #666666;
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 1.5; 
+    right: 380px;
+    top: 350px;
 }
